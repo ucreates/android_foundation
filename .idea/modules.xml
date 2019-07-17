@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-java-foundation/android-java-foundation.iml" filepath="$PROJECT_DIR$/android-java-foundation/android-java-foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-kotlin-foundation/android-kotlin-foundation.iml" filepath="$PROJECT_DIR$/android-kotlin-foundation/android-kotlin-foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/android_foundation.iml" filepath="$PROJECT_DIR$/.idea/android_foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_foundation.iml" filepath="$PROJECT_DIR$/android_foundation.iml" />
+    </modules>
+  </component>
+</project>
