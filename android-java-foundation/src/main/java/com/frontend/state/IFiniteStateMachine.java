@@ -8,6 +8,4 @@
 // We hope the tips and helpful in developing.
 // ======================================================================
 package com.frontend.state;
-public interface IFiniteStateMachine<T> {
-    public abstract FiniteStateMachine<T> getStateMachine();
-}
+public interface IFiniteStateMachine<T> { public abstract FiniteStateMachine<T> getStateMachine(); }

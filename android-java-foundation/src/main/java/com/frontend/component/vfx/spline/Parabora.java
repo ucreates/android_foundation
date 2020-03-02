@@ -21,10 +21,10 @@ public class Parabora {
         this.radian = 1.0f;
     }
     public Float3 create(float currentFrame) {
-        float sin = (float)Math.sin(this.radian);
-        float cos = (float)Math.cos(this.radian);
+        float sin = (float) Math.sin(this.radian);
+        float cos = (float) Math.cos(this.radian);
         float x = this.velocity * cos * currentFrame;
-        float y = (this.velocity * sin * currentFrame) - (Parabora.GRAVITY * (float)Math.pow(currentFrame, 2.0f) / 2.0f);
+        float y = (this.velocity * sin * currentFrame) - (Parabora.GRAVITY * (float) Math.pow(currentFrame, 2.0f) / 2.0f);
         return new Float3(x, y, 0.0f);
     }
 }

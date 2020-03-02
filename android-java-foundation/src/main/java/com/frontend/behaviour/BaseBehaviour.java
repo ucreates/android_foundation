@@ -10,15 +10,18 @@
 package com.frontend.behaviour;
 import android.content.Context;
 import com.core.entity.component.Parameter;
+import com.frontend.component.vfx.TimeLine;
 public abstract class BaseBehaviour {
     public int id;
     public boolean destroy;
     public boolean intersect;
     protected Context context;
+    protected TimeLine timeLine;
     public BaseBehaviour(Context context) {
         this.context = context;
         this.destroy = false;
         this.intersect = false;
+        this.timeLine = new TimeLine();
     }
     public void onCreate() {
         return;

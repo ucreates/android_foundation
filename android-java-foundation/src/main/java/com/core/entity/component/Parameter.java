@@ -8,18 +8,18 @@
 // We hope the tips and helpful in developing.
 // ======================================================================
 package com.core.entity.component;
-import java.util.HashMap;
 import java.lang.Object;
+import java.util.HashMap;
 public class Parameter {
     private HashMap<String, Object> parameterHashMap = new HashMap<String, Object>();
     public <T> T get(String parameterName) {
         if (false != this.parameterHashMap.containsKey(parameterName)) {
             Object ret = this.parameterHashMap.get(parameterName);
-            return (T)ret;
+            return (T) ret;
         }
         return null;
     }
-    public <T> void set(String parameterName,  T value) {
+    public <T> void set(String parameterName, T value) {
         if (false != this.parameterHashMap.containsKey(parameterName)) {
             return;
         }

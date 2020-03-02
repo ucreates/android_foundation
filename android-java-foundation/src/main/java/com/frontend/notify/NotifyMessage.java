@@ -8,8 +8,4 @@
 // We hope the tips and helpful in developing.
 // ======================================================================
 package com.frontend.notify;
-public enum NotifyMessage {
-    OnTrackingFound,
-    OnActionComplete,
-    OnRaycastHit
-}
+public enum NotifyMessage { OnTrackingFound, OnActionComplete, OnRaycastHit }

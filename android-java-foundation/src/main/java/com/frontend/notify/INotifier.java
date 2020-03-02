@@ -9,6 +9,4 @@
 // ======================================================================
 package com.frontend.notify;
 import com.core.entity.component.Parameter;
-public interface INotifier {
-    public abstract void onNotify(NotifyMessage message, Parameter parameter);
-}
+public interface INotifier { public abstract void onNotify(NotifyMessage message, Parameter parameter); }

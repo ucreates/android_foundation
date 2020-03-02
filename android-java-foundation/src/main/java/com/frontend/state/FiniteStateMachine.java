@@ -8,8 +8,8 @@
 // We hope the tips and helpful in developing.
 // ======================================================================
 package com.frontend.state;
-import java.util.HashMap;
 import com.core.entity.component.Parameter;
+import java.util.HashMap;
 public class FiniteStateMachine<T> {
     public FiniteStateEntity<T> finiteStateEntity = new FiniteStateEntity<T>();
     public HashMap<String, FiniteState<T>> stateList = new HashMap<String, FiniteState<T>>();
@@ -89,15 +89,15 @@ public class FiniteStateMachine<T> {
         return;
     }
     public boolean add(String stateName, FiniteState<T> state) {
-        if (false == state.persistent)  {
-            if (false  == this.stateList.containsKey(stateName)) {
+        if (false == state.persistent) {
+            if (false == this.stateList.containsKey(stateName)) {
                 state.owner = this.owner;
                 state.stateMachine = this;
                 this.stateList.put(stateName, state);
                 return true;
             }
         } else {
-            if (false  == this.persistentStateList.containsKey(stateName)) {
+            if (false == this.persistentStateList.containsKey(stateName)) {
                 state.owner = this.owner;
                 state.stateMachine = this;
                 this.persistentStateList.put(stateName, state);

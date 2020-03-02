@@ -16,7 +16,7 @@ public class Quadratic {
         if (rate > 1.0f) {
             rate = 1.0f;
         }
-        return diff * (float)Math.pow(rate, 2.0f) + start;
+        return diff * (float) Math.pow(rate, 2.0f) + start;
     }
     public static float easeOut(float currentTime, float totalTime, float start, float end) {
         float diff = end - start;

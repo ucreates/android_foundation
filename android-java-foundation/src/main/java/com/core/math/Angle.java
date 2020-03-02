@@ -11,9 +11,9 @@ package com.core.math;
 import java.lang.Math;
 public class Angle {
     public static float toDegree(float radian) {
-        return radian * 180.0f / (float)Math.PI;
+        return radian * 180.0f / (float) Math.PI;
     }
     public static float toRadian(float degree) {
-        return degree * (float)Math.PI / 180.0f;
+        return degree * (float) Math.PI / 180.0f;
     }
 }
